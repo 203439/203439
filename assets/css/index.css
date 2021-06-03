@@ -1,0 +1,108 @@
+header{
+    border: 2px black;
+    border-style: solid;
+}
+body{
+    margin: 0;
+}
+body{
+    background-color:antiquewhite;
+}
+.imagen {
+    width: 90px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+img{
+    transform: translateX(55%);
+    top: 0%;
+    position:relative;
+}
+h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    border-style: solid;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+    text-align:center;
+}
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+.titulo {
+    position: absolute;
+    display: inline-block;
+    width: 70%;
+    top: 2%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 35px;
+}
+.contenedor {
+    position:relative;
+    width:100%;
+    height: 100px;
+}
+.nav-ul_menu {
+    list-style: none;
+    text-align: right;
+    margin: 0 0;
+}
+.nav-ul_menu li {
+    font-family: 'Source Sans Pro', sans-serif;
+    display: inline;
+    margin-right: 5px;
+}
+.nav-ul_menu li a {
+    text-decoration: none;
+}
+.box{
+    border: 1px red;
+    border-style: solid;
+}
+main{
+    width: 90%;
+    height: 200px;
+    margin:0 auto;
+}
+.main-texto{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width:15%;
+    border: 2px black;
+    border-style: solid;
+    background-color:goldenrod;
+    text-decoration: none;
+    list-style: none;
+}
+.main-texto2{
+    position: relative;
+    display: inline-block;
+    height: 350%;
+    width: 85%;
+    top: -100%;
+    left: 20%;
+    border: 2px black;
+    border-style: solid;
+    list-style: none;
+}
+main li{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    list-style: none;
+    text-align:left;
+    margin: 20px;;
+}
